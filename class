@@ -1,0 +1,21 @@
+# Базовий клас
+class Animal:
+    def speak(self):
+        return "Animal speaks"
+
+# Похідний клас
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
+
+# Ще один похідний клас
+class Cat(Animal):
+    def speak(self):
+        return "Meow!"
+
+# Використання класів
+dog = Dog()
+cat = Cat()
+
+print(dog.speak())  # Виведе: Woof!
+print(cat.speak())  # Виведе: Meow!
